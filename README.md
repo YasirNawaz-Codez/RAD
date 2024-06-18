@@ -1,18 +1,15 @@
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# Getting Started
+>**Note**: Make sure that the python files are in a different folder and the rest is in a different folder since that is the backend/api code.
 
-This is a new React Native project, bootstrapped using [@react-native-community/cli](https://github.com/react-native-community/cli).
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Getting Started
+## Step 1: Start the Metro Server
 
-**Note:** Make sure that the Python files are in a separate folder since they are for the backend/API code.
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-**Note:** Ensure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions up to the "Creating a new application" step before proceeding.
-
-### Step 1: Start the Metro Server
-
-First, you will need to start Metro, the JavaScript bundler that ships with React Native.
-
-To start Metro, run the following command from the root of your React Native project:
+To start Metro, run the following command from the _root_ of your React Native project:
 
 ```bash
 # using npm
@@ -22,11 +19,11 @@ npm start
 yarn start
 ```
 
-### Step 2: Start Your Application
+## Step 2: Start your Application
 
-Let Metro Bundler run in its own terminal. Open a new terminal from the root of your React Native project. Run the following command to start your Android or iOS app:
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-**For Android:**
+### For Android
 
 ```bash
 # using npm
@@ -36,7 +33,7 @@ npm run android
 yarn android
 ```
 
-**For iOS:**
+### For iOS
 
 ```bash
 # using npm
@@ -46,57 +43,54 @@ npm run ios
 yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in your Android Emulator or iOS Simulator shortly, provided you have set up your emulator/simulator correctly.
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-### Step 3: Modifying Your App
+## Step 3: Modifying your App
 
 Now that you have successfully run the app, let's modify it.
 
-Open `App.jsx` in your text editor of choice and edit some lines.
+1. Open `App.jsx` in your text editor of choice and edit some lines.
+2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-**For Android:** Press the `R` key twice or select "Reload" from the Developer Menu (`Ctrl + M` (on Windows and Linux) or `Cmd ⌘ + M` (on macOS)) to see your changes!
+   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-**For iOS:** Hit `Cmd ⌘ + R` in your iOS Simulator to reload the app and see your changes!
+## Congratulations! :tada:
 
-Congratulations! 🎉 You've successfully run and modified your React Native App. 🥳
+You've successfully run and modified your React Native App. :partying_face:
 
-## Packages to be Installed
+## Packages to be installed:
 
-Make sure you have installed the following packages in your project:
+Make sure you have installed 'react-native-webrtc' in your project
+``` bash
+npm i react-native-webrtc
+```
+Make sure you have linear gradient for styling purposes
 
-- [`react-native-webrtc`](https://github.com/react-native-webrtc/react-native-webrtc):
+``` bash
+   npm i react-native-linear-gradient
+```
 
-  ```bash
-  npm i react-native-webrtc
-  ```
+Consult the Firebase webpage to install it in your project
 
-- [`react-native-linear-gradient`](https://github.com/react-native-linear-gradient/react-native-linear-gradient):
+[Firebase](https://rnfirebase.io/installations/usage)
 
-  ```bash
-  npm i react-native-linear-gradient
-  ```
+### Now what?
 
-- Consult the [Firebase](https://firebase.google.com/docs/web/setup) webpage to install it in your project.
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
-## Now What?
+# Troubleshooting
 
-If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-## Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting page](https://reactnative.dev/docs/troubleshooting).
-
-## Learn More
+# Learn More
 
 To learn more about React Native, take a look at the following resources:
 
-- [React Native Website](https://reactnative.dev/) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/getting-started) - an overview of React Native and how to set up your environment.
-- [Learn the Basics](https://reactnative.dev/docs/tutorial) - a guided tour of the React Native basics.
-- [Blog](https://reactnative.dev/blog/) - read the latest official React Native Blog posts.
-- [@facebook/react-native](https://github.com/facebook/react-native) - the Open Source GitHub repository for React Native.
-``
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
